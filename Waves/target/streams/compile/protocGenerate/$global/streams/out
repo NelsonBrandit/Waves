@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 4 protobuf files to /home/brandit/waves_run/Waves/target/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/brandit/waves_run/Waves/src/main/protobuf/script.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/brandit/waves_run/Waves/src/main/protobuf/transactions.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/brandit/waves_run/Waves/src/main/protobuf/recipient.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/brandit/waves_run/Waves/src/main/protobuf/block.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling protobuf[0m
+[0m[[0m[0minfo[0m] [0m[0mProtoc target directory: /home/brandit/waves_run/Waves/target/src_managed/main[0m

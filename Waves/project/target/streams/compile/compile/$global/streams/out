@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0merror writing Dependencies$: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Dependencies: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Network: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Network.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Network$: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Network$.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Mainnet$: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Mainnet$.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Mainnet: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Mainnet.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Testnet$: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Testnet$.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Testnet: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Testnet.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Devnet$: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Devnet$.class[0m
+[0m[[0m[31merror[0m] [0m[0merror writing Devnet: java.nio.file.AccessDeniedException /home/brandit/waves_run/Waves/project/target/scala-2.12/sbt-1.0/classes/Devnet.class[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m

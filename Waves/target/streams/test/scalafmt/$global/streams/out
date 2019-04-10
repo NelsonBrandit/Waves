@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m/home/brandit/waves_run/waves_nelson/Waves/.scalafmt.conf does not exist[0m
+[0m[[0m[0minfo[0m] [0m[0mFormatting 196 Scala sources in node:test ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/brandit/waves_run/waves_nelson/Waves/src/test/scala/com/wavesplatform/state/diffs/ExchangeTransactionDiffTest.scala:[0m
+[0m[[0m[33mwarn[0m] [0m[0mSearch state exploded around line 794[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/brandit/waves_run/waves_nelson/Waves/src/test/scala/com/wavesplatform/state/diffs/smart/predef/TransactionBindingsTest.scala:[0m
+[0m[[0m[33mwarn[0m] [0m[0mSearch state exploded around line 385[0m
+[0m[[0m[0minfo[0m] [0m[0mReformatted 187 Scala sources in node:test[0m

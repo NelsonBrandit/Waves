@@ -1,0 +1,301 @@
+2019-04-09 17:38:11,588 INFO  [main] c.w.Application$ - Starting...
+2019-04-09 17:38:12,771 INFO  [ctor.default-dispatcher-3] a.event.slf4j.Slf4jLogger - Slf4jLogger started
+2019-04-09 17:38:13,446 INFO  [main] c.w.Application$ - Waves v20190409T163724 Blockchain Id: W
+2019-04-09 17:38:13,448 DEBUG [main] c.w.db.package$ - Open DB at home/nelson/waves_tiago/Waves/data/data
+2019-04-09 17:38:15,125 INFO  [main] c.w.s.p.CancelAllLeases$ - Collecting all active leases
+2019-04-09 17:38:15,175 INFO  [main] c.w.s.p.CancelAllLeases$ - Finished collecting all active leases
+2019-04-09 17:38:15,199 INFO  [main] c.w.s.BlockchainUpdaterImpl - New height: 1
+2019-04-09 17:38:15,202 INFO  [main] com.wavesplatform.package$ - Genesis block Block(4x38UkHbmb7WP9HWB7rWJh8awV4dEyFyaGgQ5HTWBvbCaLYLPFiGPrY3ocsGDJhYtrN2uAcq9rQujMUzZ7iPJmAX -> 67rpwLC..., txs=5, features=Set()) has been added to the state
+2019-04-09 17:38:15,207 INFO  [main] c.w.w.Wallet$WalletImpl - Added account #1
+2019-04-09 17:38:19,382 DEBUG [main] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 0 milliseconds
+2019-04-09 17:38:19,416 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 3666963 > Estimated Time 1000, balance 2000000000000000, prev block 4x38UkHbmb7WP9HWB7rWJh8awV4dEyFyaGgQ5HTWBvbCaLYLPFiGPrY3ocsGDJhYtrN2uAcq9rQujMUzZ7iPJmAX
+2019-04-09 17:38:19,421 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 4x38UkHbmb7WP9HWB7rWJh8awV4dEyFyaGgQ5HTWBvbCaLYLPFiGPrY3ocsGDJhYtrN2uAcq9rQujMUzZ7iPJmAX at 1 with target 153722867
+2019-04-09 17:38:19,546 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:19,973 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 2
+2019-04-09 17:38:19,987 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 240000000438, old: 120000000219, ?120000000219
+2019-04-09 17:38:20,000 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(3gpP14YQd6MyPEb5dK9ChAutPwCRBwYU6yJtH92j7bkUFFve7xcFgDYa2uZKXpav1aXgaKaeuorvQxW6ykewzWwJ -> 4x38UkH..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 240000000438
+2019-04-09 17:38:20,095 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 315 milliseconds
+2019-04-09 17:38:20,098 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:20,100 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:20,119 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:20,414 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1004 > Estimated Time 1000, balance 2000000000000000, prev block 3gpP14YQd6MyPEb5dK9ChAutPwCRBwYU6yJtH92j7bkUFFve7xcFgDYa2uZKXpav1aXgaKaeuorvQxW6ykewzWwJ
+2019-04-09 17:38:20,415 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 3gpP14YQd6MyPEb5dK9ChAutPwCRBwYU6yJtH92j7bkUFFve7xcFgDYa2uZKXpav1aXgaKaeuorvQxW6ykewzWwJ at 2 with target 153722867
+2019-04-09 17:38:20,417 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:20,435 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 369682998641, old: 240000000438, ?129682998203
+2019-04-09 17:38:20,434 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 3
+2019-04-09 17:38:20,439 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(3aNiQBcRKyjVZw5KGADmhqwAVpgm1W6hZJuUCCBFDRJe4ATnsQu2JFkUe5GwyJqAZRJpXjSXf6mDBhh7jU3JNT3R -> 3gpP14Y..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 369682998641
+2019-04-09 17:38:20,448 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 966 milliseconds
+2019-04-09 17:38:20,450 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:20,451 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:20,452 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:21,230 INFO  [main] c.w.Application - REST API was bound on 0.0.0.0:6861
+2019-04-09 17:38:21,419 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1005 > Estimated Time 1000, balance 2000000000000000, prev block 3aNiQBcRKyjVZw5KGADmhqwAVpgm1W6hZJuUCCBFDRJe4ATnsQu2JFkUe5GwyJqAZRJpXjSXf6mDBhh7jU3JNT3R
+2019-04-09 17:38:21,419 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 3aNiQBcRKyjVZw5KGADmhqwAVpgm1W6hZJuUCCBFDRJe4ATnsQu2JFkUe5GwyJqAZRJpXjSXf6mDBhh7jU3JNT3R at 3 with target 142244892
+2019-04-09 17:38:21,437 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:21,463 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 499365996844, old: 369682998641, ?129682998203
+2019-04-09 17:38:21,464 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 4
+2019-04-09 17:38:21,467 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(3zj5gATcBrDULCFqGGsaMP8N7SAcigsMwhJFKrnkauzKa7fPTMtjsSaBRPwCNhF1TcE2M1PfhbMfLMJG4mcYtRyx -> 3aNiQBc..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 499365996844
+2019-04-09 17:38:21,470 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 949 milliseconds
+2019-04-09 17:38:21,471 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:21,478 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:21,479 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:22,423 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1004 > Estimated Time 1000, balance 2000000000000000, prev block 3zj5gATcBrDULCFqGGsaMP8N7SAcigsMwhJFKrnkauzKa7fPTMtjsSaBRPwCNhF1TcE2M1PfhbMfLMJG4mcYtRyx
+2019-04-09 17:38:22,423 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 3zj5gATcBrDULCFqGGsaMP8N7SAcigsMwhJFKrnkauzKa7fPTMtjsSaBRPwCNhF1TcE2M1PfhbMfLMJG4mcYtRyx at 4 with target 142244892
+2019-04-09 17:38:22,424 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:22,434 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 639513329264, old: 499365996844, ?140147332420
+2019-04-09 17:38:22,435 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 5
+2019-04-09 17:38:22,437 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(24JoQqg4mTxByjYpoEiUo722AoMGhV9pfMC6eJqPyXEwUtwZeHMJYUt5ZExMnAyaNQTS9thNGBEKWUwmgdv3gsjk -> 3zj5gAT..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 639513329264
+2019-04-09 17:38:22,453 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 971 milliseconds
+2019-04-09 17:38:22,453 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:22,454 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:22,455 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:23,427 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 24JoQqg4mTxByjYpoEiUo722AoMGhV9pfMC6eJqPyXEwUtwZeHMJYUt5ZExMnAyaNQTS9thNGBEKWUwmgdv3gsjk
+2019-04-09 17:38:23,427 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 24JoQqg4mTxByjYpoEiUo722AoMGhV9pfMC6eJqPyXEwUtwZeHMJYUt5ZExMnAyaNQTS9thNGBEKWUwmgdv3gsjk at 5 with target 131623940
+2019-04-09 17:38:23,428 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:23,437 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 6
+2019-04-09 17:38:23,438 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(4Ht6nugLDnCNhJE6NASgHHGSGVSZogi4S1FaujRHotTyfmeeaEPdzwCYnXVZxXHXFNxyHo7Y5muDSAwywtoaxVeG -> 24JoQqg..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 779660661684
+2019-04-09 17:38:23,438 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 779660661684, old: 639513329264, ?140147332420
+2019-04-09 17:38:23,442 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 984 milliseconds
+2019-04-09 17:38:23,442 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:23,443 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:23,444 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:24,428 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1002 > Estimated Time 1000, balance 2000000000000000, prev block 4Ht6nugLDnCNhJE6NASgHHGSGVSZogi4S1FaujRHotTyfmeeaEPdzwCYnXVZxXHXFNxyHo7Y5muDSAwywtoaxVeG
+2019-04-09 17:38:24,429 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 4Ht6nugLDnCNhJE6NASgHHGSGVSZogi4S1FaujRHotTyfmeeaEPdzwCYnXVZxXHXFNxyHo7Y5muDSAwywtoaxVeG at 6 with target 131623940
+2019-04-09 17:38:24,430 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:24,437 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 931116712753, old: 779660661684, ?151456051069
+2019-04-09 17:38:24,438 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 7
+2019-04-09 17:38:24,439 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(4JYMWpFQpvKNcsECcpcF46x1DRsekFsRg2ZjGFX5pUm1t72bcX8KTak5swS4rNUSNsnQ6rwh8yp1Gc1kUC7g3JBR -> 4Ht6nug..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 931116712753
+2019-04-09 17:38:24,442 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 986 milliseconds
+2019-04-09 17:38:24,442 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:24,443 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:24,444 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:25,431 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 4JYMWpFQpvKNcsECcpcF46x1DRsekFsRg2ZjGFX5pUm1t72bcX8KTak5swS4rNUSNsnQ6rwh8yp1Gc1kUC7g3JBR
+2019-04-09 17:38:25,431 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 4JYMWpFQpvKNcsECcpcF46x1DRsekFsRg2ZjGFX5pUm1t72bcX8KTak5swS4rNUSNsnQ6rwh8yp1Gc1kUC7g3JBR at 7 with target 121796019
+2019-04-09 17:38:25,432 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:25,445 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 8
+2019-04-09 17:38:25,446 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(2J7L5Ja2SNjdmuMGBrm7DYUp8o4o2NDzUYvZmxT2MZ8vKuJQxpEinhcojL4y5WmDLZsPaG9mDM2inqx19ygXNJRn -> 4JYMWpF..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1082572763822
+2019-04-09 17:38:25,451 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1082572763822, old: 931116712753, ?151456051069
+2019-04-09 17:38:25,452 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 979 milliseconds
+2019-04-09 17:38:25,453 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:25,453 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:25,454 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:26,434 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 2J7L5Ja2SNjdmuMGBrm7DYUp8o4o2NDzUYvZmxT2MZ8vKuJQxpEinhcojL4y5WmDLZsPaG9mDM2inqx19ygXNJRn
+2019-04-09 17:38:26,434 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 2J7L5Ja2SNjdmuMGBrm7DYUp8o4o2NDzUYvZmxT2MZ8vKuJQxpEinhcojL4y5WmDLZsPaG9mDM2inqx19ygXNJRn at 8 with target 121796019
+2019-04-09 17:38:26,435 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:26,446 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1246250052801, old: 1082572763822, ?163677288979
+2019-04-09 17:38:26,445 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 9
+2019-04-09 17:38:26,447 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(4wp7gYVURXgQrQDBVLPtM4ZPXwK84NTqaxxEnNf3HrpPyjgpBqrBW3SgiWgfewYXFmCZZrhJBwTGf6TKQufbAUXh -> 2J7L5Ja..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1246250052801
+2019-04-09 17:38:26,450 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 984 milliseconds
+2019-04-09 17:38:26,450 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:26,451 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:26,452 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:27,436 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1002 > Estimated Time 1000, balance 2000000000000000, prev block 4wp7gYVURXgQrQDBVLPtM4ZPXwK84NTqaxxEnNf3HrpPyjgpBqrBW3SgiWgfewYXFmCZZrhJBwTGf6TKQufbAUXh
+2019-04-09 17:38:27,437 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 4wp7gYVURXgQrQDBVLPtM4ZPXwK84NTqaxxEnNf3HrpPyjgpBqrBW3SgiWgfewYXFmCZZrhJBwTGf6TKQufbAUXh at 9 with target 112701916
+2019-04-09 17:38:27,438 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:27,446 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1409927341780, old: 1246250052801, ?163677288979
+2019-04-09 17:38:27,446 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 10
+2019-04-09 17:38:27,448 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(2GTScvxeNhNPvQyzin93MMsuj5K2pwLdiTa9ckBFSsjeoSKMkn38AZSBqUFWWrpFs4imBbzHbUxEY7JSceVbhqmk -> 4wp7gYV..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1409927341780
+2019-04-09 17:38:27,451 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 985 milliseconds
+2019-04-09 17:38:27,451 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:27,456 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:27,457 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:28,439 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 2GTScvxeNhNPvQyzin93MMsuj5K2pwLdiTa9ckBFSsjeoSKMkn38AZSBqUFWWrpFs4imBbzHbUxEY7JSceVbhqmk
+2019-04-09 17:38:28,439 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 2GTScvxeNhNPvQyzin93MMsuj5K2pwLdiTa9ckBFSsjeoSKMkn38AZSBqUFWWrpFs4imBbzHbUxEY7JSceVbhqmk at 10 with target 112701916
+2019-04-09 17:38:28,440 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:28,448 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 11
+2019-04-09 17:38:28,449 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(3gkw2KYJRjQ2sSNQfe92vnY4td2sT3iUYQvrDmvq2ddZwVMMFKpLp3rMe6BBx5pQ7M7gLBwDbW4f4nDYcENSz5Rx -> 2GTScvx..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1586812021099
+2019-04-09 17:38:28,449 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1586812021099, old: 1409927341780, ?176884679319
+2019-04-09 17:38:28,452 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 987 milliseconds
+2019-04-09 17:38:28,452 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:28,453 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:28,455 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:29,441 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1002 > Estimated Time 1000, balance 2000000000000000, prev block 3gkw2KYJRjQ2sSNQfe92vnY4td2sT3iUYQvrDmvq2ddZwVMMFKpLp3rMe6BBx5pQ7M7gLBwDbW4f4nDYcENSz5Rx
+2019-04-09 17:38:29,443 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 3gkw2KYJRjQ2sSNQfe92vnY4td2sT3iUYQvrDmvq2ddZwVMMFKpLp3rMe6BBx5pQ7M7gLBwDbW4f4nDYcENSz5Rx at 11 with target 104286839
+2019-04-09 17:38:29,444 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:29,452 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1763696700418, old: 1586812021099, ?176884679319
+2019-04-09 17:38:29,451 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 12
+2019-04-09 17:38:29,454 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(2NvMqzAvPL8zAooTf1vdZt8KcAY92L8qysUNDz3XypM8qpaTVEJnqpPfWdcyWRLfgyF2MZzCo5RAKgTJyK5q23YK -> 3gkw2KY..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1763696700418
+2019-04-09 17:38:29,462 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 979 milliseconds
+2019-04-09 17:38:29,463 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:29,463 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:29,464 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:30,445 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 2NvMqzAvPL8zAooTf1vdZt8KcAY92L8qysUNDz3XypM8qpaTVEJnqpPfWdcyWRLfgyF2MZzCo5RAKgTJyK5q23YK
+2019-04-09 17:38:30,445 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 2NvMqzAvPL8zAooTf1vdZt8KcAY92L8qysUNDz3XypM8qpaTVEJnqpPfWdcyWRLfgyF2MZzCo5RAKgTJyK5q23YK at 12 with target 104286839
+2019-04-09 17:38:30,446 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:30,454 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 13
+2019-04-09 17:38:30,455 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(4TrvkbuYWGumWWrw9ZH5fxoK1H8TPBWvb1ciK9mhNtogyMccJ4TT4NGQfTfn48iMgMCcekmdudXjKKsDAu9TXuZe -> 2NvMqzA..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 1954854495773
+2019-04-09 17:38:30,457 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 987 milliseconds
+2019-04-09 17:38:30,458 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 1954854495773, old: 1763696700418, ?191157795355
+2019-04-09 17:38:30,457 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:30,459 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:30,459 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:31,446 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1002 > Estimated Time 1000, balance 2000000000000000, prev block 4TrvkbuYWGumWWrw9ZH5fxoK1H8TPBWvb1ciK9mhNtogyMccJ4TT4NGQfTfn48iMgMCcekmdudXjKKsDAu9TXuZe
+2019-04-09 17:38:31,447 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 4TrvkbuYWGumWWrw9ZH5fxoK1H8TPBWvb1ciK9mhNtogyMccJ4TT4NGQfTfn48iMgMCcekmdudXjKKsDAu9TXuZe at 13 with target 96500088
+2019-04-09 17:38:31,448 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:31,456 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 2146012291128, old: 1954854495773, ?191157795355
+2019-04-09 17:38:31,455 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 14
+2019-04-09 17:38:31,457 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(3PBq3ZJ7gRCmLrfHKUSiPcXm4aS5iyUfrDrEQS9VBdeYHnAPF5pEStrXdMJ7CdDkJFV66Y1tRGynF1Kb9nZpC7bT -> 4Trvkbu..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 2146012291128
+2019-04-09 17:38:31,460 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 987 milliseconds
+2019-04-09 17:38:31,460 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:31,460 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:31,461 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:32,449 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 3PBq3ZJ7gRCmLrfHKUSiPcXm4aS5iyUfrDrEQS9VBdeYHnAPF5pEStrXdMJ7CdDkJFV66Y1tRGynF1Kb9nZpC7bT
+2019-04-09 17:38:32,450 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 3PBq3ZJ7gRCmLrfHKUSiPcXm4aS5iyUfrDrEQS9VBdeYHnAPF5pEStrXdMJ7CdDkJFV66Y1tRGynF1Kb9nZpC7bT at 14 with target 96500088
+2019-04-09 17:38:32,450 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:32,457 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 2352594923218, old: 2146012291128, ?206582632090
+2019-04-09 17:38:32,458 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 15
+2019-04-09 17:38:32,459 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(2MoJ2xKD8A3KT7ctmJXS9YYN2FxoXThm9ynQ1a9vCW3p7EwE5CwYhm6Nv29Do1PghVoePcWbDcau8agPDxDJYQco -> 3PBq3ZJ..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 2352594923218
+2019-04-09 17:38:32,462 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 987 milliseconds
+2019-04-09 17:38:32,462 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:32,463 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:32,464 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:33,454 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1004 > Estimated Time 1000, balance 2000000000000000, prev block 2MoJ2xKD8A3KT7ctmJXS9YYN2FxoXThm9ynQ1a9vCW3p7EwE5CwYhm6Nv29Do1PghVoePcWbDcau8agPDxDJYQco
+2019-04-09 17:38:33,454 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 2MoJ2xKD8A3KT7ctmJXS9YYN2FxoXThm9ynQ1a9vCW3p7EwE5CwYhm6Nv29Do1PghVoePcWbDcau8agPDxDJYQco at 15 with target 89294748
+2019-04-09 17:38:33,455 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:33,471 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 2559177555308, old: 2352594923218, ?206582632090
+2019-04-09 17:38:33,470 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 16
+2019-04-09 17:38:33,473 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(2EX7DhReLmEoWJHJbLHuXWYGPiLorh96UeitUMGvjMuXujKT6WDcyhn5mmQm1kwC3aYxvYbaBzAoCoyR3UHe8v9X -> 2MoJ2xK..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 2559177555308
+2019-04-09 17:38:33,476 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 977 milliseconds
+2019-04-09 17:38:33,477 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:33,477 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:33,478 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:34,457 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 2EX7DhReLmEoWJHJbLHuXWYGPiLorh96UeitUMGvjMuXujKT6WDcyhn5mmQm1kwC3aYxvYbaBzAoCoyR3UHe8v9X
+2019-04-09 17:38:34,457 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 2EX7DhReLmEoWJHJbLHuXWYGPiLorh96UeitUMGvjMuXujKT6WDcyhn5mmQm1kwC3aYxvYbaBzAoCoyR3UHe8v9X at 16 with target 89294748
+2019-04-09 17:38:34,458 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:34,467 DEBUG [rx-score-observer-32] c.w.n.RxScoreObserver$ - New local score: 2782429681530, old: 2559177555308, ?223252126222
+2019-04-09 17:38:34,467 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 17
+2019-04-09 17:38:34,468 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(5CDfNWhtz561PjkgK8Gsdx5PeV98xyhQJqG5yAosGzJdnjGgaJv93KntKzRF5tHLG4LnpQjMGcXYrhZPsThku48w -> 2EX7DhR..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 2782429681530
+2019-04-09 17:38:34,472 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 984 milliseconds
+2019-04-09 17:38:34,472 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:34,474 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:34,475 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:35,118 DEBUG [shutdownHook3] c.w.Application - Shutting down HistoryReplier
+2019-04-09 17:38:35,123 INFO  [shutdownHook3] c.w.Application - HistoryReplier was shutdown successfully
+2019-04-09 17:38:35,123 INFO  [shutdownHook3] c.w.Application - Closing REST API
+2019-04-09 17:38:35,193 DEBUG [shutdownHook3] c.w.Application - Closing peer database
+2019-04-09 17:38:35,194 DEBUG [shutdownHook1] c.w.u.SystemInformationReporter$ - Available processors: 2
+Max memory available: 1035993088
+os.name: Linux
+os.version: 4.15.0-47-generic
+os.arch: amd64
+java.version: 10.0.2
+java.vendor: Oracle Corporation
+java.home: /usr/lib/jvm/java-11-openjdk-amd64
+java.class.path: /tmp/sbt_5b9d416d/job-1/target/3de11b2d/waves-20190409T163724.jar:/tmp/sbt_5b9d416d/target/64264383/lang-1.0.0.jar:/tmp/sbt_5b9d416d/target/d6258d60/common-20190409T163724.jar:/tmp/sbt_5b9d416d/target/36b23483/scala-library-2.12.8.jar:/tmp/sbt_5b9d416d/target/50b0bd64/scalatest_2.12-3.0.6.jar:/tmp/sbt_5b9d416d/target/b4749d3a/scalactic_2.12-3.0.6.jar:/tmp/sbt_5b9d416d/target/682d3340/scala-reflect-2.12.8.jar:/tmp/sbt_5b9d416d/target/2fb058ff/scala-xml_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/d0c2945d/cats-core_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/9df09851/cats-macros_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/9e12eec2/cats-kernel_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/cd82aeb9/cats-mtl-core_2.12-0.3.0.jar:/tmp/sbt_5b9d416d/target/823a7257/simulacrum_2.12-0.12.0.jar:/tmp/sbt_5b9d416d/target/ed809d26/macro-compat_2.12-1.1.1.jar:/tmp/sbt_5b9d416d/target/8b135f55/machinist_2.12-0.6.4.jar:/tmp/sbt_5b9d416d/target/8b4354c1/scalacheck_2.12-1.14.0.jar:/tmp/sbt_5b9d416d/target/0a3f14d0/test-interface-1.0.jar:/tmp/sbt_5b9d416d/target/73caa589/scrypto_2.12-2.0.4.jar:/tmp/sbt_5b9d416d/target/28406009/supertagged_2.12-1.4.jar:/tmp/sbt_5b9d416d/target/e4b3d01c/curve25519-java-0.4.1.jar:/tmp/sbt_5b9d416d/target/2c9aa1c4/bcprov-jdk15on-1.58.jar:/tmp/sbt_5b9d416d/target/e252ab4d/monix_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/c35e3041/monix-execution_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/323964c3/reactive-streams-1.0.2.jar:/tmp/sbt_5b9d416d/target/093f340f/monix-eval_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/598d24fd/monix-tail_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/1f507913/monix-reactive_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/9a1a7e00/jctools-core-2.1.1.jar:/tmp/sbt_5b9d416d/target/f1f80eaf/monix-java_2.12-3.0.0-RC1.jar:/tmp/sbt_5b9d416d/target/9e8f65d4/cats-effect_2.12-0.10.1.jar:/tmp/sbt_5b9d416d/target/2473a344/fastparse_2.12-1.0.0.jar:/tmp/sbt_5b9d416d/target/02900ec8/fastparse-utils_2.12-1.0.0.jar:/tmp/sbt_5b9d416d/target/ef9a7719/sourcecode_2.12-0.1.4.jar:/tmp/sbt_5b9d416d/target/b059d2c1/fastparse-cats-core_2.12-0.1.0.jar:/tmp/sbt_5b9d416d/target/7f0d6292/cats-laws_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/94a1622b/cats-kernel-laws_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/cdbe1dcb/discipline_2.12-0.8.jar:/tmp/sbt_5b9d416d/target/725a079a/catalysts-platform_2.12-0.0.5.jar:/tmp/sbt_5b9d416d/target/fff255a5/catalysts-macros_2.12-0.0.5.jar:/tmp/sbt_5b9d416d/target/51f26525/cats-testkit_2.12-1.1.0.jar:/tmp/sbt_5b9d416d/target/6041e2c4/shapeless_2.12-2.3.3.jar:/tmp/sbt_5b9d416d/target/2d13ba8f/compiler-0.9.5.jar:/tmp/sbt_5b9d416d/target/42265bf3/scalapb-runtime_2.12-0.8.4.jar:/tmp/sbt_5b9d416d/target/f4065b07/lenses_2.12-0.8.4.jar:/tmp/sbt_5b9d416d/target/0d06d46e/protobuf-java-3.6.1.jar:/tmp/sbt_5b9d416d/target/b99cd791/weupnp-0.1.4.jar:/tmp/sbt_5b9d416d/target/9d81ce4c/async-http-client-2.4.7.jar:/tmp/sbt_5b9d416d/target/17340089/async-http-client-netty-utils-2.4.7.jar:/tmp/sbt_5b9d416d/target/da76ca59/slf4j-api-1.7.25.jar:/tmp/sbt_5b9d416d/target/6c2569df/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar:/tmp/sbt_5b9d416d/target/16a46eaa/netty-transport-native-unix-common-4.1.24.Final.jar:/tmp/sbt_5b9d416d/target/f4f6e8e7/netty-resolver-dns-4.1.24.Final.jar:/tmp/sbt_5b9d416d/target/a2b46b42/netty-codec-dns-4.1.24.Final.jar:/tmp/sbt_5b9d416d/target/84ede759/netty-reactive-streams-2.0.0.jar:/tmp/sbt_5b9d416d/target/189e46b6/leveldbjni-all-1.18.3.jar:/tmp/sbt_5b9d416d/target/ce4ca668/swagger-core-2.0.5.jar:/tmp/sbt_5b9d416d/target/99f802e0/jaxb-api-2.3.0.jar:/tmp/sbt_5b9d416d/target/557edd91/commons-lang3-3.7.jar:/tmp/sbt_5b9d416d/target/cfa4f316/jackson-databind-2.9.6.jar:/tmp/sbt_5b9d416d/target/4e393793/jackson-core-2.9.6.jar:/tmp/sbt_5b9d416d/target/e4a44124/snakeyaml-1.18.jar:/tmp/sbt_5b9d416d/target/30519dc4/swagger-annotations-2.0.5.jar:/tmp/sbt_5b9d416d/target/0aac59ec/swagger-models-2.0.5.jar:/tmp/sbt_5b9d416d/target/8613ae82/validation-api-1.1.0.Final.jar:/tmp/sbt_5b9d416d/target/e4fb7189/swagger-jaxrs2-2.0.5.jar:/tmp/sbt_5b9d416d/target/4c686033/reflections-0.9.11.jar:/tmp/sbt_5b9d416d/target/3e833942/javassist-3.22.0-GA.jar:/tmp/sbt_5b9d416d/target/92c952fd/swagger-integration-2.0.5.jar:/tmp/sbt_5b9d416d/target/c80c1d72/jackson-jaxrs-json-provider-2.9.5.jar:/tmp/sbt_5b9d416d/target/38269f29/jackson-jaxrs-base-2.9.5.jar:/tmp/sbt_5b9d416d/target/187555de/jackson-module-jaxb-annotations-2.9.5.jar:/tmp/sbt_5b9d416d/target/218448f6/swagger-scala-module_2.12-1.0.4.jar:/tmp/sbt_5b9d416d/target/69708343/jackson-module-scala_2.12-2.9.6.jar:/tmp/sbt_5b9d416d/target/6a0f0f15/jackson-annotations-2.9.6.jar:/tmp/sbt_5b9d416d/target/cafa3a01/jackson-module-paranamer-2.9.6.jar:/tmp/sbt_5b9d416d/target/619eba74/paranamer-2.8.jar:/tmp/sbt_5b9d416d/target/49eedd64/swagger-akka-http_2.12-1.0.0.jar:/tmp/sbt_5b9d416d/target/1e6f1e74/scala-java8-compat_2.12-0.8.0.jar:/tmp/sbt_5b9d416d/target/09ee9671/akka-stream_2.12-2.5.20.jar:/tmp/sbt_5b9d416d/target/a7f01585/akka-actor_2.12-2.5.20.jar:/tmp/sbt_5b9d416d/target/4b68c2d5/config-1.3.3.jar:/tmp/sbt_5b9d416d/target/b6fdece4/akka-protobuf_2.12-2.5.20.jar:/tmp/sbt_5b9d416d/target/78a93560/ssl-config-core_2.12-0.3.7.jar:/tmp/sbt_5b9d416d/target/29b4158f/scala-parser-combinators_2.12-1.1.1.jar:/tmp/sbt_5b9d416d/target/1e1da334/akka-http_2.12-10.1.7.jar:/tmp/sbt_5b9d416d/target/f6d11d6c/akka-http-core_2.12-10.1.7.jar:/tmp/sbt_5b9d416d/target/513c0f17/akka-parsing_2.12-10.1.7.jar:/tmp/sbt_5b9d416d/target/80390390/swagger-core-1.5.20.jar:/tmp/sbt_5b9d416d/target/2cf807d8/jackson-dataformat-yaml-2.9.6.jar:/tmp/sbt_5b9d416d/target/fb3a23ba/swagger-models-1.5.20.jar:/tmp/sbt_5b9d416d/target/16051f93/swagger-annotations-1.5.20.jar:/tmp/sbt_5b9d416d/target/ec9df2a0/swagger-jaxrs-1.5.20.jar:/tmp/sbt_5b9d416d/target/59033da2/jsr311-api-1.1.1.jar:/tmp/sbt_5b9d416d/target/653f4750/akka-slf4j_2.12-2.5.20.jar:/tmp/sbt_5b9d416d/target/25ea2e8b/jsr305-3.0.2.jar:/tmp/sbt_5b9d416d/target/99663df4/play-json_2.12-2.6.10.jar:/tmp/sbt_5b9d416d/target/79e9914e/play-functional_2.12-2.6.10.jar:/tmp/sbt_5b9d416d/target/f7b520c4/joda-time-2.9.9.jar:/tmp/sbt_5b9d416d/target/5c897945/jackson-datatype-jdk8-2.8.11.jar:/tmp/sbt_5b9d416d/target/6d8fbd79/jackson-datatype-jsr310-2.8.11.jar:/tmp/sbt_5b9d416d/target/7c4f3c47/logback-classic-1.2.3.jar:/tmp/sbt_5b9d416d/target/86434440/logback-core-1.2.3.jar:/tmp/sbt_5b9d416d/target/0af5364c/jul-to-slf4j-1.7.25.jar:/tmp/sbt_5b9d416d/target/163b6b04/logstash-logback-encoder-4.11.jar:/tmp/sbt_5b9d416d/target/380146a6/akka-persistence_2.12-2.5.20.jar:/tmp/sbt_5b9d416d/target/43811965/akka-stream-kafka_2.12-1.0-RC2.jar:/tmp/sbt_5b9d416d/target/34d99837/kafka-clients-2.1.0.jar:/tmp/sbt_5b9d416d/target/550b6393/zstd-jni-1.3.5-4.jar:/tmp/sbt_5b9d416d/target/d36fb639/lz4-java-1.5.0.jar:/tmp/sbt_5b9d416d/target/307b286e/snappy-java-1.1.7.2.jar:/tmp/sbt_5b9d416d/target/812d1ae9/kamon-core_2.12-1.1.3.jar:/tmp/sbt_5b9d416d/target/e4631ce1/HdrHistogram-2.1.9.jar:/tmp/sbt_5b9d416d/target/217c8f7e/fansi_2.12-0.2.4.jar:/tmp/sbt_5b9d416d/target/33652dd4/kamon-system-metrics_2.12-1.0.0.jar:/tmp/sbt_5b9d416d/target/31b29372/sigar-loader-1.6.5-rev002.jar:/tmp/sbt_5b9d416d/target/10d5bc6f/kamon-akka-2.5_2.12-1.1.3.jar:/tmp/sbt_5b9d416d/target/0100585a/kamon-scala-future_2.12-1.0.0.jar:/tmp/sbt_5b9d416d/target/0c17c495/kamon-executors_2.12-1.0.1.jar:/tmp/sbt_5b9d416d/target/3e012f34/kamon-influxdb_2.12-1.0.2.jar:/tmp/sbt_5b9d416d/target/0ada9ee7/influxdb-java-2.11.jar:/tmp/sbt_5b9d416d/target/fc4aa382/retrofit-2.4.0.jar:/tmp/sbt_5b9d416d/target/7ef0f1d9/okhttp-3.10.0.jar:/tmp/sbt_5b9d416d/target/102d7be4/okio-1.14.0.jar:/tmp/sbt_5b9d416d/target/88547f30/converter-moshi-2.4.0.jar:/tmp/sbt_5b9d416d/target/c3c147f3/moshi-1.5.0.jar:/tmp/sbt_5b9d416d/target/55f574ec/logging-interceptor-3.10.0.jar:/tmp/sbt_5b9d416d/target/83e9e75c/ficus_2.12-1.4.2.jar:/tmp/sbt_5b9d416d/target/b71de005/commons-net-3.6.jar:/tmp/sbt_5b9d416d/target/0493a5d9/scalapb-json4s_2.12-0.7.0.jar:/tmp/sbt_5b9d416d/target/da9ac02c/json4s-jackson_2.12-3.5.1.jar:/tmp/sbt_5b9d416d/target/5390fb1e/json4s-core_2.12-3.5.1.jar:/tmp/sbt_5b9d416d/target/64dec965/json4s-ast_2.12-3.5.1.jar:/tmp/sbt_5b9d416d/target/fb05e4f3/json4s-scalap_2.12-3.5.1.jar:/tmp/sbt_5b9d416d/target/0d813fe0/grpc-netty-1.18.0.jar:/tmp/sbt_5b9d416d/target/e21b343b/grpc-core-1.18.0.jar:/tmp/sbt_5b9d416d/target/c63e8b86/grpc-context-1.18.0.jar:/tmp/sbt_5b9d416d/target/751f548c/gson-2.7.jar:/tmp/sbt_5b9d416d/target/88e3c593/error_prone_annotations-2.2.0.jar:/tmp/sbt_5b9d416d/target/f97ce6de/animal-sniffer-annotations-1.17.jar:/tmp/sbt_5b9d416d/target/dc0b2090/checker-compat-qual-2.5.2.jar:/tmp/sbt_5b9d416d/target/bdaab946/guava-25.1-android.jar:/tmp/sbt_5b9d416d/target/ed28ded5/j2objc-annotations-1.1.jar:/tmp/sbt_5b9d416d/target/b89a8f8d/opencensus-api-0.18.0.jar:/tmp/sbt_5b9d416d/target/8e90fab2/opencensus-contrib-grpc-metrics-0.18.0.jar:/tmp/sbt_5b9d416d/target/d14eb053/netty-codec-http2-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/0b9218ad/netty-codec-http-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/8f32bd79/netty-codec-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/d5e5a8ff/netty-transport-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/046ede57/netty-buffer-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/e95de4f7/netty-common-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/3e011471/netty-resolver-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/b4e3fa13/netty-handler-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/58b62124/netty-handler-proxy-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/b1e83cb7/netty-codec-socks-4.1.32.Final.jar:/tmp/sbt_5b9d416d/target/be1d44d1/scalapb-runtime-grpc_2.12-0.8.4.jar:/tmp/sbt_5b9d416d/target/5e4dbf94/grpc-stub-1.18.0.jar:/tmp/sbt_5b9d416d/target/74d794cf/grpc-protobuf-1.18.0.jar:/tmp/sbt_5b9d416d/target/1140cc74/proto-google-common-protos-1.12.0.jar:/tmp/sbt_5b9d416d/target/4ce979e1/grpc-protobuf-lite-1.18.0.jar
+user.dir: /home/brandit/waves_run/Waves
+sun.net.inetaddr.ttl: 0
+sun.net.inetaddr.negative.ttl: 0
+networkaddress.cache.ttl: null
+networkaddress.cache.negative.ttl: null
+Configuration: {"metrics":{"enable":"no","node-id":-1},"waves":{"blockchain":{"custom":{"address-scheme-character":"W","functionality":{"allow-invalid-payment-transactions-by-timestamp":0,"allow-invalid-reissue-in-same-block-until-timestamp":0,"allow-leased-balance-transfer-until":0,"allow-multiple-lease-cancel-transaction-until-timestamp":0,"allow-temporary-negative-until":0,"allow-transactions-from-future-until":0,"allow-unissued-assets-until":0,"block-version-3-after":0,"block-version-3-after-height":0,"blocks-for-feature-activation":25,"double-features-periods-after-height":1000000000,"feature-check-blocks-period":30,"generation-balance-depth-from-50-to-1000-after-height":0,"max-transaction-time-back-offset":"120m","max-transaction-time-forward-offset":"90m","minimal-generating-balance-after":0,"pre-activated-features":{"2":0},"require-payment-unique-id-after":0,"require-sorted-transactions-after":0,"reset-effective-balances-at-height":1},"genesis":{"average-block-delay":"60000ms","block-timestamp":1554824232446,"initial-balance":10000000000000000,"initial-base-target":153722867,"signature":"4x38UkHbmb7WP9HWB7rWJh8awV4dEyFyaGgQ5HTWBvbCaLYLPFiGPrY3ocsGDJhYtrN2uAcq9rQujMUzZ7iPJmAX","timestamp":1554824232446,"transactions":[{"amount":2000000000000000,"recipient":"3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK"},{"amount":2000000000000000,"recipient":"3PKyrZcKtQTb6HTh83Ws4R3FCGJCBCfgBTq"},{"amount":2000000000000000,"recipient":"3PPPfz6QFQc9gKUbWCZ7RN6YHkA3J2auvdh"},{"amount":2000000000000000,"recipient":"3P6cJ1kc46iZfv2wt7r6xQQcZdUci2vBczC"},{"amount":2000000000000000,"recipient":"3P6GiXp3Kjm6V16ySeZykgJyJZJhnyFd7vf"}]}},"type":"CUSTOM"},"data-directory":"home/nelson/waves_tiago/Waves/data/data","directory":"home/nelson/waves_tiago/Waves/data","features":{"auto-shutdown-on-unsupported-feature":"yes","supported":[]},"logging-level":"DEBUG","matcher":{"account":"3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK","actor-response-timeout":"20s","balance-watching-buffer-interval":"5s","bind-address":"0.0.0.0","blacklisted-addresses":[],"blacklisted-assets":[],"blacklisted-names":[],"data-directory":"home/nelson/waves_tiago/Waves/data/matcher/data","enable":"no","events-queue":{"kafka":{"consumer":{"buffer-size":100,"max-backoff":"10s","min-backoff":"3s"},"producer":{"buffer-size":100},"topic":"dex-events"},"local":{"clean-before-consume":"yes","max-elements-per-poll":100,"polling-interval":"20ms"},"type":"local"},"journal-directory":"home/nelson/waves_tiago/Waves/data/matcher/journal","make-snapshots-at-start":"no","matcher-directory":"home/nelson/waves_tiago/Waves/data/matcher","order-book-snapshot-http-cache":{"cache-timeout":"5s","depth-ranges":[10,100]},"order-fee":{"fixed":{"asset-id":"8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS","min-fee":300000},"fixed-waves":{"base-fee":300000},"mode":"fixed-waves","percent":{"asset-type":"amount","min-fee":0.1}},"port":6862,"price-assets":["WAVES"],"rest-order-limit":100,"snapshot-store":{"class":"com.wavesplatform.matcher.MatcherSnapshotStore","dir":"home/nelson/waves_tiago/Waves/data/matcher/snapshots","plugin-dispatcher":"akka.persistence.dispatchers.default-plugin-dispatcher","stream-dispatcher":"akka.persistence.dispatchers.default-stream-dispatcher"},"snapshots-directory":"home/nelson/waves_tiago/Waves/data/matcher/snapshots","snapshots-interval":1000000,"snapshots-loading-timeout":"10m","start-events-processing-timeout":"20m"},"max-cache-size":100000,"max-rollback-depth":2000,"miner":{"enable":"yes","interval-after-last-block-then-generation-is-allowed":"999d","max-transactions-in-key-block":0,"max-transactions-in-micro-block":255,"micro-block-interval":"5s","min-micro-block-age":"6s","no-quorum-mining-delay":"5s","quorum":0},"network":{"bind-address":"0.0.0.0","black-list-residence-time":"15m","break-idle-connections-timeout":"5m","connection-timeout":"30s","declared-address":"127.0.0.1:6869","enable-blacklisting":"yes","enable-peers-exchange":"yes","file":"home/nelson/waves_tiago/Waves/data/peers.dat","handshake-timeout":"30s","known-peers":[],"max-inbound-connections":30,"max-outbound-connections":30,"max-single-host-connections":3,"max-unverified-peers":100,"node-name":"PlayerMarketCap","peers-broadcast-interval":"2m","peers-data-residence-time":"1d","port":6869,"received-txs-cache-timeout":"3m","suspension-residence-time":"1m","traffic-logger":{"ignore-rx-messages":[25],"ignore-tx-messages":[23,25]},"upnp":{"discover-timeout":"3s","enable":"no","gateway-timeout":"7s"}},"ntp-server":"pool.ntp.org","remember-blocks-interval-in-cache":"3h","rest-api":{"api-key-different-host":"yes","bind-address":"0.0.0.0","cors":"yes","distribution-address-limit":1000,"enable":"yes","port":6861,"transactions-by-address-limit":10000},"synchronization":{"history-replier":{"max-block-cache-size":20,"max-micro-block-cache-size":50},"invalid-blocks-storage":{"max-size":30000,"timeout":"5m"},"max-chain-length":101,"max-rollback":100,"micro-block-synchronizer":{"inv-cache-timeout":"45s","processed-micro-blocks-cache-timeout":"3m","wait-response-timeout":"2s"},"score-ttl":"90s","synchronization-timeout":"60s","utx-synchronizer":{"max-buffer-size":500,"max-buffer-time":"100ms","max-queue-size":5000,"max-threads":8,"network-tx-cache-size":1000000,"network-tx-cache-time":"10s","parallelism":4}},"utx":{"allow-blacklisted-transfer-to":[],"allow-transactions-from-smart-accounts":true,"blacklist-sender-addresses":[],"max-bytes-size":52428800,"max-size":100000}}}
+2019-04-09 17:38:35,195 INFO  [shutdownHook3] c.w.n.PeerDatabaseImpl - Saving 0 known peer(s) to peers.dat
+2019-04-09 17:38:35,270 DEBUG [shutdownHook3] c.w.Application - Node's actor system shutdown successful
+2019-04-09 17:38:35,271 INFO  [shutdownHook3] c.w.Application - Stopping network services
+2019-04-09 17:38:35,272 DEBUG [rx-extension-loader-33] c.w.utx.UtxPoolImpl - UTX pool cleanup stopped
+2019-04-09 17:38:35,279 DEBUG [shutdownHook3] c.w.network.NetworkServer$ - Unbound server
+2019-04-09 17:38:35,288 DEBUG [shutdownHook3] c.w.network.NetworkServer$ - Closed all channels
+2019-04-09 17:38:35,458 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1002 > Estimated Time 1000, balance 2000000000000000, prev block 5CDfNWhtz561PjkgK8Gsdx5PeV98xyhQJqG5yAosGzJdnjGgaJv93KntKzRF5tHLG4LnpQjMGcXYrhZPsThku48w
+2019-04-09 17:38:35,459 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 5CDfNWhtz561PjkgK8Gsdx5PeV98xyhQJqG5yAosGzJdnjGgaJv93KntKzRF5tHLG4LnpQjMGcXYrhZPsThku48w at 17 with target 82627406
+2019-04-09 17:38:35,460 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:35,467 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 18
+2019-04-09 17:38:35,467 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(3RxZLaahadHUAx3DLUevrz8QwyFGdt36YXLaTAHvPobALFUbVjw6cYo4wt9Phb5t9r3JySQXjSPUR62TRHQeGBcg -> 5CDfNWh..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 3005681807752
+2019-04-09 17:38:35,469 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 989 milliseconds
+2019-04-09 17:38:35,469 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:35,470 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:35,470 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:36,461 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 3RxZLaahadHUAx3DLUevrz8QwyFGdt36YXLaTAHvPobALFUbVjw6cYo4wt9Phb5t9r3JySQXjSPUR62TRHQeGBcg
+2019-04-09 17:38:36,461 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Previous block ID 3RxZLaahadHUAx3DLUevrz8QwyFGdt36YXLaTAHvPobALFUbVjw6cYo4wt9Phb5t9r3JySQXjSPUR62TRHQeGBcg at 18 with target 82627406
+2019-04-09 17:38:36,462 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:36,469 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 19
+2019-04-09 17:38:36,470 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forged and applied Block(5GCy8BhusnmZQRU2tipJsqfZhmkaYXyW7qFPVhrp3FPmvsziYN6xgtNFvkYuC9cQhUXknBwfFQiqFeC9Nj6sAWWu -> 3RxZLaa..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 3246948514823
+2019-04-09 17:38:36,478 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 983 milliseconds
+2019-04-09 17:38:36,479 INFO  [miner-pool-28] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:36,479 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:36,479 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:37,465 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1004 > Estimated Time 1000, balance 2000000000000000, prev block 5GCy8BhusnmZQRU2tipJsqfZhmkaYXyW7qFPVhrp3FPmvsziYN6xgtNFvkYuC9cQhUXknBwfFQiqFeC9Nj6sAWWu
+2019-04-09 17:38:37,466 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 5GCy8BhusnmZQRU2tipJsqfZhmkaYXyW7qFPVhrp3FPmvsziYN6xgtNFvkYuC9cQhUXknBwfFQiqFeC9Nj6sAWWu at 19 with target 76457893
+2019-04-09 17:38:37,467 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:37,474 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 20
+2019-04-09 17:38:37,475 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(4kNPcXnFczQ5rUhBpV4Km68cPFSYNEa6KRMgrK1njfb6ihhLwyjCLNaE5ArXVgoQeKjFqyAgn8o3zP3JLT5MRGNc -> 5GCy8Bh..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 3488215221894
+2019-04-09 17:38:37,481 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 984 milliseconds
+2019-04-09 17:38:37,482 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:37,482 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:37,483 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:38,468 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block 4kNPcXnFczQ5rUhBpV4Km68cPFSYNEa6KRMgrK1njfb6ihhLwyjCLNaE5ArXVgoQeKjFqyAgn8o3zP3JLT5MRGNc
+2019-04-09 17:38:38,468 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID 4kNPcXnFczQ5rUhBpV4Km68cPFSYNEa6KRMgrK1njfb6ihhLwyjCLNaE5ArXVgoQeKjFqyAgn8o3zP3JLT5MRGNc at 20 with target 76457893
+2019-04-09 17:38:38,469 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:38,478 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 21
+2019-04-09 17:38:38,479 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(aDucH6HXrGwjRGhQLWM79d95rCgZJYD1ToqypGvSet3zPEWnuu6yAV55Wm6hiB6zsgKr4fQEk1ym3FBNmpzSecB -> 4kNPcXn..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 3748950139521
+2019-04-09 17:38:38,482 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 986 milliseconds
+2019-04-09 17:38:38,482 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:38,483 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:38,483 INFO  [miner-pool-28] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:39,471 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Forging with 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK, Time 1003 > Estimated Time 1000, balance 2000000000000000, prev block aDucH6HXrGwjRGhQLWM79d95rCgZJYD1ToqypGvSet3zPEWnuu6yAV55Wm6hiB6zsgKr4fQEk1ym3FBNmpzSecB
+2019-04-09 17:38:39,472 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Previous block ID aDucH6HXrGwjRGhQLWM79d95rCgZJYD1ToqypGvSet3zPEWnuu6yAV55Wm6hiB6zsgKr4fQEk1ym3FBNmpzSecB at 21 with target 70749036
+2019-04-09 17:38:39,477 DEBUG [miner-pool-28] c.w.mining.MinerImpl - Adding 0 unconfirmed transaction(s) to new block
+2019-04-09 17:38:39,484 INFO  [appender-31] c.w.s.BlockchainUpdaterImpl - New height: 22
+2019-04-09 17:38:39,485 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Forged and applied Block(5cYhanKXX4TrCneHrweE6f51VDYbEjZVFzCPH1g6RPG4FN551ByHs6TWrkQZcmwcfzF9n3miATQrU3N86pUXZunC -> aDucH6H..., txs=0, features=Set()) by 3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK with cumulative score 4009685057148
+2019-04-09 17:38:39,488 DEBUG [miner-pool-29] c.w.mining.MinerImpl - Next attempt for acc=3PK2xXeAhq3ADCrWx8XeqEJdCEDMmEmMmjK in 983 milliseconds
+2019-04-09 17:38:39,489 INFO  [miner-pool-29] c.w.mining.MinerImpl - Start mining microblocks
+2019-04-09 17:38:39,489 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 0 days
+2019-04-09 17:38:39,490 INFO  [miner-pool-29] c.w.mining.MinerImpl - Generate MicroBlock sequence, delay = 5 seconds
+2019-04-09 17:38:39,732 DEBUG [shutdownHook3] c.w.Application - Shutting down Miner
+2019-04-09 17:38:39,741 INFO  [utx-pool-sync-76] c.w.n.UtxPoolSynchronizer$ - UtxPoolSynschronizer stops
+2019-04-09 17:38:40,477 ERROR [miner-pool-29] c.w.Application - Error in Miner
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@40d33b66[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5d86f8a6[Wrapped task = monix.eval.Task$$anon$3@484ec0c4]] rejected from monix.execution.schedulers.SchedulerCompanionImpl$$anon$2@708a3b5a[Shutting down, pool size = 2, active threads = 1, queued tasks = 1, completed tasks = 121]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2080)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:832)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at monix.execution.schedulers.ExecutorScheduler.executeAsync(ExecutorScheduler.scala:41)
+	at monix.execution.schedulers.BatchingScheduler.execute(BatchingScheduler.scala:53)
+	at monix.execution.schedulers.BatchingScheduler.execute$(BatchingScheduler.scala:47)
+	at monix.execution.schedulers.ExecutorScheduler.execute(ExecutorScheduler.scala:34)
+	at monix.eval.Task$.$anonfun$shift$1(Task.scala:2158)
+	at monix.eval.Task$.$anonfun$shift$1$adapted(Task.scala:2156)
+	at monix.eval.internal.TaskRunLoop$.executeAsyncTask(TaskRunLoop.scala:421)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:110)
+	at monix.eval.internal.TaskRunLoop$RestartCallback.onSuccess(TaskRunLoop.scala:537)
+	at monix.eval.internal.TaskSleep$SleepRunnable.run(TaskSleep.scala:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-04-09 17:38:44,491 ERROR [miner-pool-28] c.w.Application - Error in Miner
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@3af41c45[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7bd3479f[Wrapped task = monix.eval.Task$$anon$3@456077ac]] rejected from monix.execution.schedulers.SchedulerCompanionImpl$$anon$2@708a3b5a[Shutting down, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 122]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2080)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:832)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at monix.execution.schedulers.ExecutorScheduler.executeAsync(ExecutorScheduler.scala:41)
+	at monix.execution.schedulers.BatchingScheduler.execute(BatchingScheduler.scala:53)
+	at monix.execution.schedulers.BatchingScheduler.execute$(BatchingScheduler.scala:47)
+	at monix.execution.schedulers.ExecutorScheduler.execute(ExecutorScheduler.scala:34)
+	at monix.eval.Task$.$anonfun$shift$1(Task.scala:2158)
+	at monix.eval.Task$.$anonfun$shift$1$adapted(Task.scala:2156)
+	at monix.eval.internal.TaskRunLoop$.executeAsyncTask(TaskRunLoop.scala:421)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:110)
+	at monix.eval.internal.TaskRunLoop$RestartCallback.onSuccess(TaskRunLoop.scala:537)
+	at monix.eval.internal.TaskSleep$SleepRunnable.run(TaskSleep.scala:45)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-04-09 17:38:44,494 INFO  [shutdownHook3] c.w.Application - Miner was shutdown successfully
+2019-04-09 17:38:44,494 DEBUG [shutdownHook3] c.w.Application - Shutting down MicroblockSynchronizer
+2019-04-09 17:38:44,495 INFO  [shutdownHook3] c.w.Application - MicroblockSynchronizer was shutdown successfully
+2019-04-09 17:38:44,495 DEBUG [shutdownHook3] c.w.Application - Shutting down ScoreObserver
+2019-04-09 17:38:44,495 INFO  [shutdownHook3] c.w.Application - ScoreObserver was shutdown successfully
+2019-04-09 17:38:44,496 DEBUG [shutdownHook3] c.w.Application - Shutting down ExtensionLoader
+2019-04-09 17:38:44,496 INFO  [shutdownHook3] c.w.Application - ExtensionLoader was shutdown successfully
+2019-04-09 17:38:44,496 DEBUG [shutdownHook3] c.w.Application - Shutting down Appender
+2019-04-09 17:38:44,497 INFO  [shutdownHook3] c.w.Application - Appender was shutdown successfully
+2019-04-09 17:38:44,498 INFO  [shutdownHook3] c.w.Application - Closing storage
+2019-04-09 17:38:44,499 INFO  [shutdownHook3] c.wavesplatform.utils.NTP - Shutting down Time
+2019-04-09 17:38:44,499 INFO  [shutdownHook3] c.w.Application - Shutdown complete

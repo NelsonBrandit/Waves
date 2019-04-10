@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/genesis.dev.conf,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/genesis.dev.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/application.conf,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/genesis.example.conf,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/genesis.example.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/logback-verbose.xml,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/logback-verbose.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/logback-test.xml,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/logback-test.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/brandit/waves_run/waves_nelson/Waves/src/test/resources/genesis.it.conf,/home/brandit/waves_run/waves_nelson/Waves/target/test-classes/genesis.it.conf)[0m
